@@ -1,3 +1,4 @@
+#ffmpeg-tools
 A command line tool for ffmpeg.
-Prerequisite:
+#Prerequisite
     1. ffmpeg installed on your pc.
