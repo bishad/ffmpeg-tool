@@ -10,7 +10,6 @@ def split(num):
         stop=input()
         print("Enter new name")
         new=input()
-        # os.popen('ffmpeg -i '+name+' -ss '+start+' -to '+stop+' -codec copy '+new)
         os.system('ffmpeg -i '+name+' -ss '+start+' -to '+stop+' -codec copy '+new)
 
 def convert(number):
